@@ -1,0 +1,196 @@
+/* ======== Estilos generales ======== */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fafafa;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    color: #00529B;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* ======== Encabezado ======== */
+header {
+    background: linear-gradient(135deg, #00529B, #0078D7);
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+/* ======== Multimedia ======== */
+.multimedia {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.campus-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ======== Oferta educativa ======== */
+#oferta-educativa {
+    padding: 50px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.offerings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.offering {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offering:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.center-btn {
+    margin-top: 40px;
+}
+
+.main-btn {
+    background: #00529B;
+    color: #fff;
+    padding: 14px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.main-btn:hover {
+    background: #0078D7;
+}
+
+/* ======== Testimonios ======== */
+.testimonial-section {
+    background: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonial {
+    max-width: 700px;
+    margin: 20px auto;
+    background: #fff;
+    border-left: 5px solid #00529B;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* ======== Contacto ======== */
+#contacto {
+    padding: 60px 20px;
+    background: #fff;
+}
+
+.contact-form {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #00529B;
+    color: #fff;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #0078D7;
+}
+
+/* ======== Botones de compartir ======== */
+.share-buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.share-buttons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #00529B;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.share-buttons a:hover {
+    color: #0078D7;
+}
+
+/* ======== Pie de página ======== */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+footer a {
+    color: #00A3FF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
